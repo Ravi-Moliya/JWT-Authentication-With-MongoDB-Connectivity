@@ -1,0 +1,28 @@
+{
+  "name": "signinwithjwt",
+  "version": "1.0.0",
+  "description": "Sign In With JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Abhishek",
+    "Pujara",
+    "Sky9",
+    "I.T.",
+    "Cratft"
+  ],
+  "author": "Mr. Abhishek Pujara.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.1",
+    "url": "^0.11.0"
+  }
+}
