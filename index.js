@@ -80,7 +80,7 @@ app.get("/SignInValidateAPI",(req,res)=>{
           returnValue=returnValue+"]";
           res.set(200).json(returnValue);
           console.log("Sending Data To Ajax...");
-          //console.log(returnValue);
+      
         });
         db.close();
     });
