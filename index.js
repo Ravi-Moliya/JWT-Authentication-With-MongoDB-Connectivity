@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const session = require('express-session');
+//cookie-parser is use to store token in cookies....
 const cookieParser = require('cookie-parser')
 
 var mc= require('mongodb').MongoClient;
